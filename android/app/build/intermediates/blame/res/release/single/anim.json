@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_down.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_up.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/tooltip_exit.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_in.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/tooltip_enter.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/anim/abc_popup_enter.xml"
+    }
+]

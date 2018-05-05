@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/res/color/switch_thumb_material_dark.xml"
+    }
+]
