@@ -1,4 +1,4 @@
-package com.tangituru.vampiradmob;
+package com.nighp.babytracker_android;
 
 import com.facebook.react.ReactActivity;
 

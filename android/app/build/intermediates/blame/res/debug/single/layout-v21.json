@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/res/layout-v21/notification_action.xml"
+    }
+]

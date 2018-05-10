@@ -28,6 +28,7 @@ const App = StackNavigator({
 		screen : Splash
 	}
 }, {
+	headerMode : 'screen',
 	initialRouteName : 'Splash'
 })
 

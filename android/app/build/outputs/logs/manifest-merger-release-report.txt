@@ -56,7 +56,7 @@ INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main
 INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
 	package
-		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:2:5-40
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:2:5-44
 		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
 		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -267,7 +267,7 @@ MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/mshodiqul/.g
 		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
 		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:14:7-38
-activity#com.tangituru.vampiradmob.MainActivity
+activity#com.nighp.babytracker_android.MainActivity
 ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:19:7-28:18
 	android:label
 		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:21:9-41
@@ -373,7 +373,7 @@ ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/cac
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:30:9-44
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:29:9-63
-permission#com.tangituru.vampiradmob.permission.C2D_MESSAGE
+permission#com.nighp.babytracker_android.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:30:9-44
@@ -383,7 +383,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:22-76
-uses-permission#com.tangituru.vampiradmob.permission.C2D_MESSAGE
+uses-permission#com.nighp.babytracker_android.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:22-76
@@ -397,7 +397,7 @@ ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/cac
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:36:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:39:13-43:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.tangituru.vampiradmob
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.nighp.babytracker_android
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:40:17-81
@@ -407,7 +407,7 @@ category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:17-61
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:27-58
-category#com.tangituru.vampiradmob
+category#com.nighp.babytracker_android
 ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:17-61
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:27-58

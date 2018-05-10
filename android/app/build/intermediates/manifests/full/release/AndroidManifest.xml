@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tangituru.vampiradmob"
+    package="com.nighp.babytracker_android"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -15,22 +15,22 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.tangituru.vampiradmob.permission.C2D_MESSAGE"
+        android:name="com.nighp.babytracker_android.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.tangituru.vampiradmob.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.nighp.babytracker_android.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.tangituru.vampiradmob.MainApplication"
+        android:name="com.nighp.babytracker_android.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.tangituru.vampiradmob.MainActivity"
+            android:name="com.nighp.babytracker_android.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" >
@@ -78,7 +78,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.tangituru.vampiradmob" />
+                <category android:name="com.nighp.babytracker_android" />
             </intent-filter>
         </receiver>
         <!--
@@ -95,7 +95,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.tangituru.vampiradmob.firebaseinitprovider"
+            android:authorities="com.nighp.babytracker_android.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

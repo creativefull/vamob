@@ -1,0 +1,4 @@
+#Sat May 05 23:31:19 WIB 2018
+base.0=/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

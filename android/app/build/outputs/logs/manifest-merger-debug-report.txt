@@ -1,0 +1,467 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-keep-awake] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-keep-awake/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/d45e7d4ffba4acf41e30a0ac3d653682/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-ads-12.0.1.aar/8df85686178b946ee2e0441e8b90353a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/875c6f534e14785214e5101586d356cd/AndroidManifest.xml:2:1-8:12
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.1.aar/f4f7a0007d51d4887b3fac8eb7016068/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c422e268fbc9d55a9a04ff8373845447/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/20186871e1895594bb5efadf23928362/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/07824d7d93f0ce59702766bbd023135e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/41e575bfcc2852f42634a4a02ffc7099/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/95a728b72e73a9933923f55e7bda9875/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/4a5a5ee54a1780a106a69320dd213f39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/2c8c230ff21e051a973ad46a712fcbe3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/07fcf011ac33cb5acbb855baa899c065/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/4099399c03baa6fafe664bd2fcee879c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b2cbc2ec635a14e96f42deffe0b7b84b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d7a1ebf519985abd1f340fa43c942329/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/718a763645c26d9913b66e4889802b4b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/1192fb4add2da76263fe208f49cf0dcb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/7fba3abf35f5b968da6efd7e7fe950f2/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/11ec3f7007b0602eb30e5ef5d4d35099/AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/598df49a397b07cce9ef99f3db1158a1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/5d8da13377fa4d68f32b6ffc7c52adef/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/23a8324e0e856a37a5f67fced99eba90/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/6abb5fc1e7ef49929fe2c680199639c8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/00cc73be90ec5f001ce46b13ce562a0f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/82dfc472fc2af8fa43718722fbf5fadf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/0410154f8a6dc744ceb1a8fdadfb4ab8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3b3ce271d3ffb4d991278dd411855f90/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/2e10fe433716dd29f7177d80e5e2fddc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/830c9b196b07b41e4873712cd76e9369/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/4daa3f53a965dd10cbe4e59687b582eb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/4ea4220a4122d8ea4392bb19cd1a2d10/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/823f9c22abef89441b1add692cde596e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/8cb75e1d861bed8de137412ab7d60636/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8a04db4dcf3ceb93485d20c25eafbb39/AndroidManifest.xml:17:1-24:12
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [:react-native-firebase] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:7:22-75
+uses-sdk
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [:react-native-keep-awake] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-keep-awake/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-keep-awake] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-keep-awake/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /mnt/developer/Project/2018/mobile/faucet-ten/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/d45e7d4ffba4acf41e30a0ac3d653682/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/d45e7d4ffba4acf41e30a0ac3d653682/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-ads-12.0.1.aar/8df85686178b946ee2e0441e8b90353a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-ads-12.0.1.aar/8df85686178b946ee2e0441e8b90353a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/875c6f534e14785214e5101586d356cd/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/875c6f534e14785214e5101586d356cd/AndroidManifest.xml:6:5-44
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/776f13c34de732ead1833d2888508ecf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.1.aar/f4f7a0007d51d4887b3fac8eb7016068/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.1.aar/f4f7a0007d51d4887b3fac8eb7016068/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c422e268fbc9d55a9a04ff8373845447/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c422e268fbc9d55a9a04ff8373845447/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/20186871e1895594bb5efadf23928362/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/20186871e1895594bb5efadf23928362/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/07824d7d93f0ce59702766bbd023135e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/07824d7d93f0ce59702766bbd023135e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/41e575bfcc2852f42634a4a02ffc7099/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/41e575bfcc2852f42634a4a02ffc7099/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/95a728b72e73a9933923f55e7bda9875/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/95a728b72e73a9933923f55e7bda9875/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/4a5a5ee54a1780a106a69320dd213f39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/4a5a5ee54a1780a106a69320dd213f39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/2c8c230ff21e051a973ad46a712fcbe3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/2c8c230ff21e051a973ad46a712fcbe3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/07fcf011ac33cb5acbb855baa899c065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/07fcf011ac33cb5acbb855baa899c065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/4099399c03baa6fafe664bd2fcee879c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/4099399c03baa6fafe664bd2fcee879c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b2cbc2ec635a14e96f42deffe0b7b84b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b2cbc2ec635a14e96f42deffe0b7b84b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a5cce827b1b780e09ca959760741799d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d7a1ebf519985abd1f340fa43c942329/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d7a1ebf519985abd1f340fa43c942329/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/718a763645c26d9913b66e4889802b4b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/718a763645c26d9913b66e4889802b4b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/1192fb4add2da76263fe208f49cf0dcb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/1192fb4add2da76263fe208f49cf0dcb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/7fba3abf35f5b968da6efd7e7fe950f2/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/7fba3abf35f5b968da6efd7e7fe950f2/AndroidManifest.xml:2:3-70
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/598df49a397b07cce9ef99f3db1158a1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/598df49a397b07cce9ef99f3db1158a1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/5d8da13377fa4d68f32b6ffc7c52adef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/5d8da13377fa4d68f32b6ffc7c52adef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/23a8324e0e856a37a5f67fced99eba90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/23a8324e0e856a37a5f67fced99eba90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/6abb5fc1e7ef49929fe2c680199639c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/6abb5fc1e7ef49929fe2c680199639c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/00cc73be90ec5f001ce46b13ce562a0f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/00cc73be90ec5f001ce46b13ce562a0f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/82dfc472fc2af8fa43718722fbf5fadf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/82dfc472fc2af8fa43718722fbf5fadf/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/0410154f8a6dc744ceb1a8fdadfb4ab8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/0410154f8a6dc744ceb1a8fdadfb4ab8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3b3ce271d3ffb4d991278dd411855f90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3b3ce271d3ffb4d991278dd411855f90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/2e10fe433716dd29f7177d80e5e2fddc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/2e10fe433716dd29f7177d80e5e2fddc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/830c9b196b07b41e4873712cd76e9369/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/830c9b196b07b41e4873712cd76e9369/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/4daa3f53a965dd10cbe4e59687b582eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/4daa3f53a965dd10cbe4e59687b582eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/4ea4220a4122d8ea4392bb19cd1a2d10/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/4ea4220a4122d8ea4392bb19cd1a2d10/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/823f9c22abef89441b1add692cde596e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/823f9c22abef89441b1add692cde596e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/8cb75e1d861bed8de137412ab7d60636/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/8cb75e1d861bed8de137412ab7d60636/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8a04db4dcf3ceb93485d20c25eafbb39/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8a04db4dcf3ceb93485d20c25eafbb39/AndroidManifest.xml:20:5-22:41
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:9:5-11:41
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/20186871e1895594bb5efadf23928362/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:13:5-30:19
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/d45e7d4ffba4acf41e30a0ac3d653682/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/d45e7d4ffba4acf41e30a0ac3d653682/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-ads-12.0.1.aar/8df85686178b946ee2e0441e8b90353a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-ads:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-ads-12.0.1.aar/8df85686178b946ee2e0441e8b90353a/AndroidManifest.xml:5:5-20
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.54.4] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/d550b2d1339cd50a80724d68d2d16445/AndroidManifest.xml:13:5-20
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c422e268fbc9d55a9a04ff8373845447/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c422e268fbc9d55a9a04ff8373845447/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/07824d7d93f0ce59702766bbd023135e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/07824d7d93f0ce59702766bbd023135e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/41e575bfcc2852f42634a4a02ffc7099/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/41e575bfcc2852f42634a4a02ffc7099/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/95a728b72e73a9933923f55e7bda9875/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/95a728b72e73a9933923f55e7bda9875/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/7fba3abf35f5b968da6efd7e7fe950f2/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/7fba3abf35f5b968da6efd7e7fe950f2/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/11ec3f7007b0602eb30e5ef5d4d35099/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/11ec3f7007b0602eb30e5ef5d4d35099/AndroidManifest.xml:2:3-17
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/598df49a397b07cce9ef99f3db1158a1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/598df49a397b07cce9ef99f3db1158a1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/5d8da13377fa4d68f32b6ffc7c52adef/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/5d8da13377fa4d68f32b6ffc7c52adef/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/23a8324e0e856a37a5f67fced99eba90/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/23a8324e0e856a37a5f67fced99eba90/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/6abb5fc1e7ef49929fe2c680199639c8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/6abb5fc1e7ef49929fe2c680199639c8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/00cc73be90ec5f001ce46b13ce562a0f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/00cc73be90ec5f001ce46b13ce562a0f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/82dfc472fc2af8fa43718722fbf5fadf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/82dfc472fc2af8fa43718722fbf5fadf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/4daa3f53a965dd10cbe4e59687b582eb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/4daa3f53a965dd10cbe4e59687b582eb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/4ea4220a4122d8ea4392bb19cd1a2d10/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/4ea4220a4122d8ea4392bb19cd1a2d10/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/823f9c22abef89441b1add692cde596e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/823f9c22abef89441b1add692cde596e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/8cb75e1d861bed8de137412ab7d60636/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/8cb75e1d861bed8de137412ab7d60636/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:16:7-39
+	android:icon
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:17:7-41
+	android:allowBackup
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:15:7-33
+	android:theme
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:18:7-38
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:14:7-38
+activity#com.nighp.babytracker_android.MainActivity
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:19:7-28:18
+	android:label
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:21:9-41
+	android:windowSoftInputMode
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:23:9-51
+	android:configChanges
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:22:9-79
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:20:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:24:9-27:25
+action#android.intent.action.MAIN
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:25:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:26:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:29:7-84
+	android:name
+		ADDED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:29:17-81
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/177dd77aef2d9660e3f099b5905da37d/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/e39e4c2689b247542f9a7ae04150fe28/AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/a6e6dc967e954d223df35630c1bb6abd/AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:29:9-63
+permission#com.nighp.babytracker_android.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:22-76
+uses-permission#com.nighp.babytracker_android.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.nighp.babytracker_android
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:27-58
+category#com.nighp.babytracker_android
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/d004516934c16482ac551631f98d040c/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/e73ba7eab2cac940c966c19eaf0e1383/AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/2d404e1a5b87a5192a065beb809881fe/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/1942d6c91ae37854e7ca57a0f4180dd9/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/64ebb7cd2c44d971248673ff2f3e8a79/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /mnt/developer/Project/2018/mobile/faucet-ten/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
