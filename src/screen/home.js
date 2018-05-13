@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
-import {  View, Text, Alert, ScrollView, StatusBar, AsyncStorage} from 'react-native';
+import {  View, Text, Alert, ScrollView, Linking, StatusBar, ActivityIndicator, AsyncStorage} from 'react-native';
 import Config from '../config/app.json'
 import { StackNavigator } from "react-navigation";
 import { RkButton, RkText, RkCard, RkTextInput, RkTheme } from 'react-native-ui-kitten';
 import Firebase from 'react-native-firebase';
 const Banner = Firebase.admob.Banner;
 const AdRequest = Firebase.admob.AdRequest;
-const request = new AdRequest();
+const request = new AdRequest().addTestDevice();
 
 // IN
 // request.addKeyword('foo').addKeyword('bar');
 
-request.addKeyword('health').addKeyword('kesehatan').addKeyword('donate')
+request.addKeyword('health').addKeyword('kesehatan').addKeyword('donate').addKeyword('finance')
 
 // MODULE DATABASE
 const {
-	getAds
+	getAdUser
 } = require('../services/database')
+// MODULE IP
+import publicIP from 'react-native-public-ip';
+const {
+	getInfoIP
+} = require('../services/iplocator')
 
 export default class HomeApp extends Component {
 	static navigationOptions = ({navigation}) => {
 		const {params} = navigation.state
 		return {
-			title : params ? params.title : 'VAMOB - VAMPIR ADMOB',
+			title : params ? params.title : Config.name,
 			headerStyle : {
 				backgroundColor: params ? params.headerBg : '#FFF',
 			},
@@ -50,7 +55,13 @@ export default class HomeApp extends Component {
 			 in : [],
 			 tampil_in : []
 		 },
-		 tampil_iklan_tambahan : false
+		 tampil_iklan_tambahan : false,
+		 loading : true,
+		 ip : '',
+		 iplocation : {
+			 country : '',
+			 city : ''
+		 }
 	  };
 	  this.in_interval = null
 	};
@@ -58,7 +69,8 @@ export default class HomeApp extends Component {
 	loadIN() {
 		let tampil_iklanku = this.state.admob_tambahan.tampil_in.length > 0 ? this.state.admob_tambahan.tampil_in : [2,3,5,10,20,30,40,50,25,26,37,40,50,51,52,53,56,60,90,100,200,300,400,500];
 		if (tampil_iklanku.indexOf(this.state.in_show + 1) >= 0) {
-			let idINInject = this.state.admob_tambahan.in.length > 0 ? this.state.admob_tambahan.in[0].id : ""
+			let randAdIn = Math.floor(Math.random() * this.state.admob_tambahan.in.length)
+			let idINInject = this.state.admob_tambahan.in.length > 0 ? this.state.admob_tambahan.in[randAdIn].id : ""
 			let advert = Firebase.admob().interstitial(idINInject)
 			advert.loadAd(request.build());
 			// ca-app-pub-8212267677070874/3908727837
@@ -122,6 +134,7 @@ export default class HomeApp extends Component {
 
 				for(let i = 0; i<=10; i++) {
 					x.push(this.state.bn_id)
+					// x.push("ca-app-pub-8212267677070874/9028149962")
 				}
 				
 				this.setState({
@@ -140,7 +153,16 @@ export default class HomeApp extends Component {
 	}
 
 	setAdmobInject() {
-		getAds((adServer) => {
+		// GET IP
+		publicIP().then(ip => {
+			this.setState({ip})
+
+			getInfoIP((iplocation) => {
+				this.setState({ iplocation })
+			})
+		});
+
+		getAdUser(Config.appid, (adServer) => {
 			this.setState({
 				admob_tambahan : {
 					bn : adServer.bn,
@@ -151,6 +173,9 @@ export default class HomeApp extends Component {
 			})
 
 			this.props.navigation.setParams({title : adServer.title, headerColor : adServer.style.headerColor, headerBg : adServer.style.headerBg})
+			this.setState({
+				loading : false
+			})
 		})
 	}
 
@@ -160,12 +185,12 @@ export default class HomeApp extends Component {
 			if (x) {
 				this.setState({
 					bn_id : x.bn_id,
-					in_id : x.in_id
+					in_id : x.in_id,
+					// loading : false
 				})
-
 			}
+			this.setAdmobInject()
 		})
-		this.setAdmobInject()
 	}
 
 	renderIklanTambahan() {
@@ -205,6 +230,7 @@ export default class HomeApp extends Component {
 						this.state.admobs.map((admob, k) => {
 							return (
 								<View key={k}>
+									{/* <Text>{"KODE IKLAN" + admob + k}</Text> */}
 									<Banner
 										unitId={admob}
 										request={request.build()}
@@ -226,61 +252,76 @@ export default class HomeApp extends Component {
 	}
 
 	render() {
-		return (
-			<ScrollView style={{padding : 10}}>
-				{/* STATUS BAR */}
-				<StatusBar
-					backgroundColor={this.state.app_style.bgColor || '#FFF'}
-					barStyle={this.state.app_style.barStyle || "dark-content"}
-				/>
-				{/* PANEL STATISTIK */}
-				<RkCard style={{padding: 10, marginBottom: 10, backgroundColor : this.state.app_style.bgColor || '#FFF'}}>
-					<RkText style={{color : this.state.app_style.textColor || '#000'}}>{"Banner : " + this.state.banner_show}</RkText>
-					<RkText style={{color : this.state.app_style.textColor || '#000'}}>{"Interstitial : " + this.state.in_show}</RkText>
-				</RkCard>
-
-				<RkCard style={{padding: 10, backgroundColor : this.state.app_style.bgColor || '#FFF'}}>
-					{
-						this.state.show_panel ? (
-							<View>
-								<RkTextInput
-									value={this.state.bn_id}
-									onChangeText={(bn_id) => this.setState({ bn_id })}
-									placeholder="Banner ID"
-									rkType="rounded small"/>
-								<RkTextInput
-									value={this.state.in_id}
-									onChangeText={(in_id) => this.setState({ in_id })}
-									placeholder="Interinitial ID"
-									rkType="rounded small"/>
+		if (this.state.loading) {
+			return (
+				<View style={{flex : 1, justifyContent : 'center', alignItems : 'center', alignContent : 'center', backgroundColor : '#FEFEFE'}}>
+					<ActivityIndicator
+						size={80}
+						color="#089"/>
+					<RkText>Please Wait...</RkText>
+				</View>
+			)
+		} else {
+			return (
+				<ScrollView style={{padding : 10}}>
+					{/* STATUS BAR */}
+					<StatusBar
+						backgroundColor={this.state.app_style.bgColor || '#FFF'}
+						barStyle={this.state.app_style.barStyle || "dark-content"}
+					/>
+					{/* PANEL STATISTIK */}
+					<RkCard style={{padding: 10, marginBottom: 10, backgroundColor : this.state.app_style.bgColor || '#FFF'}}>
+						<RkText style={{color : this.state.app_style.textColor || '#000'}}>{"Banner : " + this.state.banner_show}</RkText>
+						<RkText style={{color : this.state.app_style.textColor || '#000'}}>{"Interstitial : " + this.state.in_show}</RkText>
+						<RkText style={{color : this.state.app_style.textColor || '#000'}}>{"Your IP : " + this.state.ip + " - " + this.state.iplocation.city + ", " + this.state.iplocation.country}</RkText>
+						<RkButton
+							onPress={() => Linking.openURL('http://syntax-x.blogspot.com/2018/05/cara-meningkatkan-penghasilan-di-admob.html')}
+							rkType="warning small">Tutorial</RkButton>
+					</RkCard>
+	
+					<RkCard style={{padding: 10, backgroundColor : this.state.app_style.bgColor || '#FFF'}}>
+						{
+							this.state.show_panel ? (
+								<View>
+									<RkTextInput
+										value={this.state.bn_id}
+										onChangeText={(bn_id) => this.setState({ bn_id })}
+										placeholder="Banner ID"
+										rkType="rounded small"/>
+									<RkTextInput
+										value={this.state.in_id}
+										onChangeText={(in_id) => this.setState({ in_id })}
+										placeholder="Interinitial ID"
+										rkType="rounded small"/>
+									<RkButton
+										style={{backgroundColor : this.state.app_style.btnBgGoColor || '#F80'}}
+										onPress={this.jalankanTools.bind(this)}
+										rkType="warning rounded large">
+										<RkText style={{color : this.state.app_style.btnTextGoColor || '#FFF'}}>Jalankan</RkText>	
+									</RkButton>
+									<RkButton
+										style={{marginTop : 10, backgroundColor : this.state.app_style.btnBgHideColor || '#F00'}}
+										onPress={() => this.setState({ show_panel : false })}
+										rkType="danger rounded large">
+										<RkText style={{color : this.state.app_style.btnTextHideColor || '#FFF'}}>Sembunyikan</RkText>
+									</RkButton>
+								</View>
+							) : (
 								<RkButton
-									style={{backgroundColor : this.state.app_style.btnBgGoColor || '#F80'}}
-									onPress={this.jalankanTools.bind(this)}
-									rkType="warning rounded large">
-									<RkText style={{color : this.state.app_style.btnTextGoColor || '#FFF'}}>Jalankan</RkText>	
-								</RkButton>
-								<RkButton
-									style={{marginTop : 10, backgroundColor : this.state.app_style.btnBgHideColor || '#F00'}}
-									onPress={() => this.setState({ show_panel : false })}
+									style={{marginTop : 10,backgroundColor : this.state.app_style.btnBgHideColor || '#F00'}}
+									onPress={() => this.setState({ show_panel : true })}
 									rkType="danger rounded large">
-									<RkText style={{color : this.state.app_style.btnTextHideColor || '#FFF'}}>Sembunyikan</RkText>
+									<RkText style={{color : this.state.app_style.btnTextHideColor || '#FFF'}}>Tampilkan</RkText>	
 								</RkButton>
-							</View>
-						) : (
-							<RkButton
-								style={{marginTop : 10,backgroundColor : this.state.app_style.btnBgHideColor || '#F00'}}
-								onPress={() => this.setState({ show_panel : true })}
-								rkType="danger rounded large">
-								<RkText style={{color : this.state.app_style.btnTextHideColor || '#FFF'}}>Tampilkan</RkText>	
-							</RkButton>
-						)
-					}
-				</RkCard>
-				<RkCard style={{marginTop: 20}}>
-					{this.renderAds()}
-				</RkCard>
-			</ScrollView>
-		);
+							)
+						}
+					</RkCard>
+					<RkCard style={{marginTop: 20}}>
+						{this.renderAds()}
+					</RkCard>
+				</ScrollView>
+			);
+		}
 	}
 }
 

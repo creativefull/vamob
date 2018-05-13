@@ -97,8 +97,12 @@ def enableProguardInReleaseBuilds = false
 android {
     compileSdkVersion 27
 
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
     defaultConfig {
-        applicationId "com.nighp.babytracker_android"
+        applicationId "com.tangituru.vampire3"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -124,10 +128,10 @@ android {
                 keyPassword MYAPP_RELEASE_KEY_PASSWORD
             }
         }
-    }    
+    }
     buildTypes {
         release {
-            minifyEnabled enableProguardInReleaseBuilds
+            minifyEnabled false
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.release
         }
@@ -152,8 +156,10 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-keep-awake')
-    compile(project(':react-native-firebase')) {
+    implementation project(':react-native-network-info')
+    implementation project(':react-native-firebase')
+    implementation project(':react-native-keep-awake')
+    implementation(project(':react-native-firebase')) {
         transitive = false
     }
     

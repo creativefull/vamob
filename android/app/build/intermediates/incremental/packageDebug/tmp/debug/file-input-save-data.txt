@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat May 05 23:31:21 WIB 2018
+#Sun May 13 04:44:45 WIB 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libprivatedata.so
 25.base=/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

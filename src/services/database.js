@@ -7,3 +7,10 @@ exports.getAds = (callback) => {
 		callback(results)
 	})
 }
+
+exports.getAdUser = (user, callback) => {
+	db.ref('apps/' + user).on('value', (value) => {
+		let results = value.val()
+		callback(results)
+	})
+}

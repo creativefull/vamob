@@ -1,0 +1,35 @@
+{
+  "bn" : [ {
+    "id" : "ca-app-pub-6515317087001920/7107799296",
+    "name" : "Admob e USER"
+  }, {
+    "id" : "ca-app-pub-4602048728539583/5382847215",
+    "name" : "Admob e Team Vampire"
+  }, {
+    "id" : "ca-app-pub-6928256127896853/5572821427",
+    "name" : "Admob e Dev"
+  } ],
+  "in" : [ {
+    "id" : "ca-app-pub-6515317087001920/7291632124",
+    "name" : "IN User"
+  }, {
+    "id" : "ca-app-pub-4602048728539583/4013925229",
+    "name" : "IN E Team Vampire"
+  }, {
+    "id" : "ca-app-pub-6928256127896853/8028783743",
+    "name" : "IN E DEV"
+  } ],
+  "style" : {
+    "barStyle" : "light-content",
+    "bgColor" : "#106B60",
+    "btnBgGoColor" : "#F39C12",
+    "btnBgHideColor" : "#FEFEFE",
+    "btnTextGoColor" : "#000",
+    "btnTextHideColor" : "#870000",
+    "headerBg" : "#106B60",
+    "headerColor" : "#FFF",
+    "textColor" : "#FFF"
+  },
+  "tampil_in" : [ 3, 4, 10, 6, 7, 11, 15, 20, 21, 23, 35, 100, 200, 201, 205, 220, 300, 500, 400, 600, 700, 800, 9000, 1000 ],
+  "title" : "R.A.R (T)"
+}

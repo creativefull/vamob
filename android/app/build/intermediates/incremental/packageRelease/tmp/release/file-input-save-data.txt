@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun May 06 01:29:31 WIB 2018
+#Sun May 13 05:24:42 WIB 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libjsc.so
 25.base=/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/transforms/mergeJniLibs/release/0

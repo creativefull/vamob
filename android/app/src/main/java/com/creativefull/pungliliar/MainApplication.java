@@ -1,10 +1,11 @@
-package com.nighp.babytracker_android;
+package com.tangituru.vampire3;
 
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.corbt.keepawake.KCKeepAwakePackage;
 import io.invertase.firebase.RNFirebasePackage;
+import com.pusherman.networkinfo.RNNetworkInfoPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -31,6 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
         new MainReactPackage(),
             new KCKeepAwakePackage(),
             new RNFirebasePackage(),
+            new RNNetworkInfoPackage(),
         // add/remove these packages as appropriate
         new RNFirebaseAdMobPackage(),
         new RNFirebaseDatabasePackage()

@@ -5,7 +5,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_lines_media.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
@@ -21,11 +21,11 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow_custom.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media_custom.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_big_media_custom.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
@@ -45,7 +45,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_big_media.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
@@ -65,7 +65,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_media_custom.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
@@ -77,7 +77,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_media_cancel_action.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
@@ -85,7 +85,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_big_media_narrow.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/dev_loading_view.xml",
@@ -129,7 +129,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_media_action.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_media_action.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/fps_view.xml",
@@ -141,7 +141,7 @@
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
-        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/2461f3e735f65318d5533a7828ff0c17/res/layout/notification_template_media.xml"
+        "source": "/home/mshodiqul/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/bf2497180604f5e48147a50957491423/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/mnt/developer/Project/2018/mobile/faucet-ten/android/app/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",

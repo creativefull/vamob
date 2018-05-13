@@ -1,27 +1,39 @@
 {
   "project_info": {
-    "project_number": "975455049629",
-    "firebase_url": "https://godev-tangituru.firebaseio.com",
-    "project_id": "godev-tangituru",
-    "storage_bucket": "godev-tangituru.appspot.com"
+    "project_number": "129810901335",
+    "firebase_url": "https://abiding-state-124810.firebaseio.com",
+    "project_id": "abiding-state-124810",
+    "storage_bucket": "abiding-state-124810.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:975455049629:android:19aefd2a98777acf",
+        "mobilesdk_app_id": "1:129810901335:android:ddaca3063e3d0685",
         "android_client_info": {
-          "package_name": "com.nighp.babytracker_android"
+          "package_name": "com.blantik"
         }
       },
       "oauth_client": [
         {
-          "client_id": "975455049629-h3agavl52i9et9re7epnunljig3iv34f.apps.googleusercontent.com",
+          "client_id": "129810901335-3h9ftpn1linqercll6i154msdcq3qbte.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-nkfhushb2ul90k73jsrr9ujsor05r4h7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-rkla7dccot2ptpkgq2qcog9ot6rp7shl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-s7gip8lajkub1r0m9t1kvkdui73qf5bh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCK7XVBrrsCwMEMhUlfoTyOx3Juc7MNyk4"
+          "current_key": "AIzaSyANFuLQZOYCr3uBAZnmyIxVi1PF9pqcKtw"
         }
       ],
       "services": {
@@ -39,20 +51,118 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:975455049629:android:40effe59bacedba3",
+        "mobilesdk_app_id": "1:129810901335:android:83e5e7555ef182a9",
         "android_client_info": {
-          "package_name": "com.tangituru.vampiradmob"
+          "package_name": "com.tangituru.vampire1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "975455049629-h3agavl52i9et9re7epnunljig3iv34f.apps.googleusercontent.com",
+          "client_id": "129810901335-3h9ftpn1linqercll6i154msdcq3qbte.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-nkfhushb2ul90k73jsrr9ujsor05r4h7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-rkla7dccot2ptpkgq2qcog9ot6rp7shl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-s7gip8lajkub1r0m9t1kvkdui73qf5bh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCK7XVBrrsCwMEMhUlfoTyOx3Juc7MNyk4"
+          "current_key": "AIzaSyANFuLQZOYCr3uBAZnmyIxVi1PF9pqcKtw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129810901335:android:909a8c88a2de89b0",
+        "android_client_info": {
+          "package_name": "com.tangituru.vampire2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129810901335-3h9ftpn1linqercll6i154msdcq3qbte.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-nkfhushb2ul90k73jsrr9ujsor05r4h7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-rkla7dccot2ptpkgq2qcog9ot6rp7shl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-s7gip8lajkub1r0m9t1kvkdui73qf5bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANFuLQZOYCr3uBAZnmyIxVi1PF9pqcKtw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129810901335:android:b6f0cdcb650ec755",
+        "android_client_info": {
+          "package_name": "com.tangituru.vampire3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129810901335-3h9ftpn1linqercll6i154msdcq3qbte.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-nkfhushb2ul90k73jsrr9ujsor05r4h7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-rkla7dccot2ptpkgq2qcog9ot6rp7shl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "129810901335-s7gip8lajkub1r0m9t1kvkdui73qf5bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANFuLQZOYCr3uBAZnmyIxVi1PF9pqcKtw"
         }
       ],
       "services": {

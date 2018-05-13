@@ -26,6 +26,8 @@
     "react-native": "^0.54.4",
     "react-native-firebase": "^4.0.0",
     "react-native-keep-awake": "^3.0.1",
+    "react-native-network-info": "^3.2.2",
+    "react-native-public-ip": "^1.0.0",
     "react-native-ui-kitten": "^3.0.0",
     "react-navigation": "^1.5.11"
   }

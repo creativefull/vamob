@@ -516,7 +516,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">Vampire Admob PRO</string>
+    <string name="app_name">Alternative Medicine</string>
     <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy</string>
     <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug JS Remotely</string>
     <string name="catalyst_debugjs_nuclide" project="catalyst" translatable="false">Debug JS in Nuclide</string>
@@ -541,7 +541,7 @@
     <string name="catalyst_report_button" project="catalyst" translatable="false">Report</string>
     <string name="catalyst_settings" project="catalyst" translatable="false">Dev Settings</string>
     <string name="catalyst_settings_title" project="catalyst" translatable="false">Catalyst Dev Settings</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">8fc998e2-eaf6-46e2-9cc1-b63faadd012c</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">7f8c633f-a910-4cd7-ba21-a31edf6aefbb</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -560,14 +560,14 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">975455049629-h3agavl52i9et9re7epnunljig3iv34f.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://godev-tangituru.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">975455049629</string>
-    <string name="google_api_key" translatable="false">AIzaSyCK7XVBrrsCwMEMhUlfoTyOx3Juc7MNyk4</string>
-    <string name="google_app_id" translatable="false">1:975455049629:android:19aefd2a98777acf</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCK7XVBrrsCwMEMhUlfoTyOx3Juc7MNyk4</string>
-    <string name="google_storage_bucket" translatable="false">godev-tangituru.appspot.com</string>
-    <string name="project_id" translatable="false">godev-tangituru</string>
+    <string name="default_web_client_id" translatable="false">129810901335-3h9ftpn1linqercll6i154msdcq3qbte.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://abiding-state-124810.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">129810901335</string>
+    <string name="google_api_key" translatable="false">AIzaSyANFuLQZOYCr3uBAZnmyIxVi1PF9pqcKtw</string>
+    <string name="google_app_id" translatable="false">1:129810901335:android:b6f0cdcb650ec755</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANFuLQZOYCr3uBAZnmyIxVi1PF9pqcKtw</string>
+    <string name="google_storage_bucket" translatable="false">abiding-state-124810.appspot.com</string>
+    <string name="project_id" translatable="false">abiding-state-124810</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
     <string name="s3">Accept</string>
